@@ -45,12 +45,12 @@ function agregarHabilidadAlListado(nombre, habilidad, contacto) {
     tdContacto.appendChild(aContacto);
     tr.appendChild(tdContacto);
 
-    const tdEditar = document.createElement('td');
-    const btnEditar = document.createElement('button');
-    btnEditar.textContent = 'Editar';
-    btnEditar.addEventListener('click', () => editarHabilidad(tr));
-    tdEditar.appendChild(btnEditar);
-    tr.appendChild(tdEditar);
+    // const tdEditar = document.createElement('td');
+    // const btnEditar = document.createElement('button');
+    // btnEditar.textContent = 'Editar';
+    // btnEditar.addEventListener('click', () => editarHabilidad(tr));
+    // tdEditar.appendChild(btnEditar);
+    // tr.appendChild(tdEditar);
 
     tbody.appendChild(tr);
 }

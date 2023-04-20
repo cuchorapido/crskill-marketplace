@@ -16,7 +16,7 @@
     { "nombre": "ELCHINO", "habilidad": "Fotografo, detailer de carros", "contacto": "https://www.instagram.com/elchino_dx/" },
     { "nombre": "Sebastian Villa", "habilidad": "Desarrollador Movil Hibrido con Flutter", "contacto": "https://www.linkedin.com/in/sebasvillalo/" },
     { "nombre": "Alejandro", "habilidad": "Gestión de Redes / Cyberseguridad / Infraestructura TI", "contacto": "https://twitter.com/AleejandrolR" },
-    { "nombre": "JFQ", "habilidad": "Moderador, Ing. Civil, estudios y diseños preliminares de ingeniería, AutoCAD, Revit, SIG, MS office avanzado, aprendiz de BIM", "contacto": "www.linkedin.com/in/jfqy/" },
+    { "nombre": "JFQ", "habilidad": "Moderador, Ing. Civil, estudios y diseños preliminares de ingeniería, AutoCAD, Revit, SIG, MS office avanzado, aprendiz de BIM", "contacto": "https://www.linkedin.com/in/jfqy/" },
     { "nombre": "Juanwx_", "habilidad": "Tecnologo en gestión contable, Programador en proceso", "contacto": "https://twitter.com/Juanwxw_" },
     { "nombre": "David el lindo", "habilidad": "Motivador, Importador, mercader", "contacto": "https://www.instagram.com/dav1d_rodr1guez/" },
     { "nombre": "PinedaCOL", "habilidad": "Editor de video", "contacto": "https://twitter.com/pinedaCOL" },
@@ -24,5 +24,7 @@
     { "nombre": "David Gonzalez", "habilidad": "Moderador en twitch, Desarrollador web con experiencia en React, HTML, CSS y JavaScript.", "contacto": "https://github.com/dgonzalezt2" },
     { "nombre": "Crashxh", "habilidad": "Moderador, Progamador en progreso, excel basico, word avanzado, Experiencia en propiedad horizontal", "contacto": "https://twitter.com/Crashxh" },
     { "nombre": "Juan José Ruiz", "habilidad": "Chef pastelero, Ingeniero en sistemas en formación, ", "contacto": "https://twitter.com/JuannPatissier" },
-    { "nombre": "Santiago Aristizabal Correa", "habilidad": "Administrador de sistemas informáticos, Web developer frontend, React.js, Next.js,AEM ", "contacto": "https://www.linkedin.com/in/santiago-aristizabal-3ab8531b5/" }
+    { "nombre": "Santiago Aristizabal Correa", "habilidad": "Administrador de sistemas informáticos, Web developer frontend, React.js, Next.js,AEM ", "contacto": "https://www.linkedin.com/in/santiago-aristizabal-3ab8531b5/" },
+    { "nombre": "Ana Isabel García", "habilidad": "Soy Animadora digital, con habilidades en Animación 3D y 2D cutout, Rigger en Toon Boom, Modelado, y render en 3D", "contacto": "https://instagram.com/its.isaag?igshid=ZDdkNTZiNTM=" },
+    { "nombre": "x4rLz", "habilidad": "Editor de video", "contacto": "https://twitter.com/x4rlz" }
 ]
