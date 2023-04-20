@@ -9,7 +9,6 @@
     { "nombre": "Psylan", "habilidad": "Moderador, Editor de fotos, Lider, Sociable, Entusiasta, Desarrollador web , Ingeniero Informatico en proceso, Java, JS, Frontend", "contacto": "https://www.linkedin.com/in/dylan-lopez-2949781b9/" },
     { "nombre": "dZePequeno", "habilidad": "Colaborador, Editor de Video, Editor de Fotografía, Diseñador Industrial, Piloto de Drone, Productor Audiovisual ", "contacto": "https://t.me/dzepequeno" },
     { "nombre": "Papossa", "habilidad": "Moderador, programador en formación, gestión de redes", "contacto": "https://twitter.com/la_papa_h" },
-    { "nombre": "Juan Jose Ruiz", "habilidad": "VIP, programador en formación, ", "contacto": "https://twitter.com/JuannPatissier" },
     { "nombre": "Burgos", "habilidad": "Moderador/Vip, Futuro Ingeniero en Software, Proximo Editor de video", "contacto": "https://twitter.com/BurgosPay10" },
     { "nombre": "ElBitterX", "habilidad": "Entrevistador, Podcaster, experto en química, gestión de redes", "contacto": "https://www.instagram.com/elbitterx/" },
     { "nombre": "kelly", "habilidad": "liderar equipos, Futuro frontend-web3 Proximo, Moderador/Vip, Futuro Ingeniero en Software, Proximo frontend", "contacto": "https://www.instagram.com/kellysjohana27/" },
@@ -23,5 +22,6 @@
     { "nombre": "PinedaCOL", "habilidad": "Editor de video", "contacto": "https://twitter.com/pinedaCOL" },
     { "nombre": "DamianShow", "habilidad": "Tecnologo en sistemas, Programador, Gigolo", "contacto": "https://instagram.com/Damn.97" },
     { "nombre": "David Gonzalez", "habilidad": "Moderador en twitch, Desarrollador web con experiencia en React, HTML, CSS y JavaScript.", "contacto": "https://github.com/dgonzalezt2" },
-    { "nombre": "Crashxh", "habilidad": "Moderador, Progamador en progreso, excel basico, word avanzado, Experiencia en propiedad horizontal", "contacto": "https://twitter.com/Crashxh" }
+    { "nombre": "Crashxh", "habilidad": "Moderador, Progamador en progreso, excel basico, word avanzado, Experiencia en propiedad horizontal", "contacto": "https://twitter.com/Crashxh" },
+    { "nombre": "Juan José Ruiz", "habilidad": "Chef pastelero, Ingeniero en sistemas en formación, ", "contacto": "https://twitter.com/JuannPatissier" }
 ]
