@@ -23,5 +23,6 @@
     { "nombre": "DamianShow", "habilidad": "Tecnologo en sistemas, Programador, Gigolo", "contacto": "https://instagram.com/Damn.97" },
     { "nombre": "David Gonzalez", "habilidad": "Moderador en twitch, Desarrollador web con experiencia en React, HTML, CSS y JavaScript.", "contacto": "https://github.com/dgonzalezt2" },
     { "nombre": "Crashxh", "habilidad": "Moderador, Progamador en progreso, excel basico, word avanzado, Experiencia en propiedad horizontal", "contacto": "https://twitter.com/Crashxh" },
-    { "nombre": "Juan José Ruiz", "habilidad": "Chef pastelero, Ingeniero en sistemas en formación, ", "contacto": "https://twitter.com/JuannPatissier" }
+    { "nombre": "Juan José Ruiz", "habilidad": "Chef pastelero, Ingeniero en sistemas en formación, ", "contacto": "https://twitter.com/JuannPatissier" },
+    { "nombre": "Santiago Aristizabal Correa", "habilidad": "Administrador de sistemas informáticos, Web developer frontend, React.js, Next.js,AEM ", "contacto": "https://www.linkedin.com/in/santiago-aristizabal-3ab8531b5/" }
 ]

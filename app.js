@@ -50,4 +50,26 @@ function agregarHabilidadAlListado(nombre, habilidad, contacto) {
     btnEditar.textContent = 'Editar';
     btnEditar.addEventListener('click', () => editarHabilidad(tr));
     tdEditar.appendChild(btnEditar);
-    tr
+    tr.appendChild(tdEditar);
+
+    tbody.appendChild(tr);
+}
+
+function editarHabilidad(tr) {
+    const tdNombre = tr.children[0];
+    const tdHabilidad = tr.children[1];
+    const tdContacto = tr.children[2];
+    const tdEditar = tr.children[3];
+
+    if (tdEditar.textContent === 'Editar') {
+        tdNombre.contentEditable = 'true';
+        tdHabilidad.contentEditable = 'true';
+        tdContacto.contentEditable = 'true';
+        tdEditar.textContent = 'Guardar';
+    } else {
+        tdNombre.contentEditable = 'false';
+        tdHabilidad.contentEditable = 'false';
+        tdContacto.contentEditable = 'false';
+        tdEditar.textContent = 'Editar';
+    }
+}
