@@ -26,33 +26,34 @@ function agregarHabilidad(event) {
 }
 
 function agregarHabilidadAlListado(nombre, habilidad, contacto) {
-	const tbody = document.getElementById('listado-habilidades').querySelector('tbody');
-	const tr = document.createElement('tr');
 
-	const tdNombre = document.createElement('td');
-	tdNombre.textContent = nombre;
-	tr.appendChild(tdNombre);
+    const tbody = document.getElementById('listado-habilidades').querySelector('tbody');
+    const tr = document.createElement('tr');
 
-	const tdHabilidad = document.createElement('td');
-	tdHabilidad.textContent = habilidad;
-	tr.appendChild(tdHabilidad);
+    const tdNombre = document.createElement('td');
+    tdNombre.textContent = nombre;
+    tr.appendChild(tdNombre);
 
-	const tdContacto = document.createElement('td');
-	const aContacto = document.createElement('a');
-	aContacto.href = contacto;
-	aContacto.textContent = contacto;
-	aContacto.target = '_blank';
-	tdContacto.appendChild(aContacto);
-	tr.appendChild(tdContacto);
+    const tdHabilidad = document.createElement('td');
+    tdHabilidad.textContent = habilidad;
+    tr.appendChild(tdHabilidad);
 
-	// const tdEditar = document.createElement('td');
-	// const btnEditar = document.createElement('button');
-	// btnEditar.textContent = 'Editar';
-	// btnEditar.addEventListener('click', () => editarHabilidad(tr));
-	// tdEditar.appendChild(btnEditar);
-	// tr.appendChild(tdEditar);
+    const tdContacto = document.createElement('td');
+    const aContacto = document.createElement('a');
+    aContacto.href = contacto;
+    aContacto.textContent = 'Contacto';
+    aContacto.target = '_blank';
+    tdContacto.appendChild(aContacto);
+    tr.appendChild(tdContacto);
 
-	tbody.appendChild(tr);
+    // const tdEditar = document.createElement('td');
+    // const btnEditar = document.createElement('button');
+    // btnEditar.textContent = 'Editar';
+    // btnEditar.addEventListener('click', () => editarHabilidad(tr));
+    // tdEditar.appendChild(btnEditar);
+    // tr.appendChild(tdEditar);
+
+    tbody.appendChild(tr);
 }
 
 function editarHabilidad(tr) {
