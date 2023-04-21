@@ -40,7 +40,7 @@ function agregarHabilidadAlListado(nombre, habilidad, contacto) {
     const tdContacto = document.createElement('td');
     const aContacto = document.createElement('a');
     aContacto.href = contacto;
-    aContacto.textContent = contacto;
+    aContacto.textContent = 'Contacto';
     aContacto.target = '_blank';
     tdContacto.appendChild(aContacto);
     tr.appendChild(tdContacto);
