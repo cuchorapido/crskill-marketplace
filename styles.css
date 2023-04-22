@@ -1,8 +1,12 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    font-size: x-small;
+
+}
+body {
+    background-color: #555;
 }
 
 header {
@@ -10,18 +14,21 @@ header {
     color: #fff;
     text-align: center;
     padding: 1.5rem 0;
+    font-size: 14px;
 }
 
-h1 {
-    margin: 0;
+h2 {
+    text-align: center;
 }
 
 main {
     max-width: 1200px;
     margin: 2rem auto;
     padding: 1rem;
+    font-size: 12px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .formulario label,
@@ -37,14 +44,14 @@ table {
     margin-top: 20px;
 }
 
-th,
-td {
-    border: 1px solid #ccc;
+th,td {
+    border: 1px solid #7a7a7a;
     padding: 3px;
     text-align: left;
 }
 
 th {
+    font-size: 14px;
     background-color: #f2f2f2;
     font-weight: bold;
 }
@@ -52,16 +59,24 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-
+footer {
+    background-color: #333;
+    padding: 30px;
+}
 a {
-    color: #1a73e8;
+    font-weight: bold;
+    width: 100%;
+    font-size: 13px;
+    color: #1e82b1;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
+#twitch {
+    font-size: 16px;
+}
 .editable {
     cursor: pointer;
     background-color: rgba(255, 255, 0, 0.2);
