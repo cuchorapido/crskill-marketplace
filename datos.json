@@ -1,5 +1,5 @@
 [
-    { "foto": "imgs/090718muskpot1_1920x1080.jpg", "nombre": "Stovedove", "habilidad": "Moderador, Editor de fotos, Ilustrador, Desarrollador web, Prompt engineer y software engineer en proceso", "contacto": "https://t.me/stovedove" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "Stovedove", "habilidad": "Moderador, Editor de fotos, Ilustrador, Desarrollador web, Prompt engineer y software engineer en proceso", "contacto": "https://t.me/stovedove" },
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "XTentacion", "habilidad": "Colaborador, Basic Excel", "contacto": "https://twitter.com/XTentacion" },
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "gael", "habilidad": "productor musical", "contacto": "https://twitter.com/gaelyouknow" },
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "joipar21", "habilidad": "Editor de video", "contacto": "https://twitter.com/colo11779740" },
@@ -31,5 +31,12 @@
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "Derek Farming", "habilidad": "Cultivador de cannabis, motivador, coach online, nutricion deportiva, edicion de videos,cannabis medicinal, accesorios para el autocultivo en colombia", "contacto": "https://www.instagram.com/camifit_22/?hl=es-la" },
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "wispy", "habilidad": " Progamador en progreso", "contacto": "https://www.instagram.com/wispyrbi/" },
     { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "Bohol_09", "habilidad": "programming junior", "contacto": "https://twitter.com/Bohol_09" },
-    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "2dobleB", "habilidad": "Editor de video, programador en curso", "contacto": "https://www.instagram.com/doble2b/"}
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "2dobleB", "habilidad": "Editor de video, Experto marketing, mercadeo ,ventas,", "contacto": "https://www.instagram.com/doble2b/"},
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "mr.notsenior", "habilidad": "programador de páginas y aplicaciones web", "contacto":"https://mrnotsenior.vercel.app" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "zRoypi", "habilidad": "Editor de Video", "contacto": "https://www.behance.net/roypi_" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "LaMae_REC", "habilidad": "editor de videos, creacion de emotes, Streamer", "contacto": "https://www.instagram.com/lamae_rec/" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "txcmatheo", "habilidad": "programador junior", "contacto": "https://twitter.com/txc_matheo" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "raveen", "habilidad": "futuro ingeniero en sistemas , chef, tecnólogo en sistemas", "contacto": "https://www.instagram.com/liangonzzz/" },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "Squizzy", "habilidad": "desarrollador web, diseño y edición de videos e imágenes", "contacto": "https://www.linkedin.com/in/joseduquea/ " },
+    { "foto": "imgs/090718muskpot1_1920x1080.jpg","nombre": "slate", "habilidad": "tecnologo en administración de empresas y contabilidad financiera", "contacto":"https://twitter.com/Slatee10?t=yKRbS-J_syCzeK1NIL043A&s=09" }
 ]
