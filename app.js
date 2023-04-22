@@ -26,34 +26,33 @@ function agregarHabilidad(event) {
 }
 
 function agregarHabilidadAlListado(nombre, habilidad, contacto) {
+	const tbody = document.getElementById('listado-habilidades').querySelector('tbody');
+	const tr = document.createElement('tr');
 
-    const tbody = document.getElementById('listado-habilidades').querySelector('tbody');
-    const tr = document.createElement('tr');
+	const tdNombre = document.createElement('td');
+	tdNombre.textContent = nombre;
+	tr.appendChild(tdNombre);
 
-    const tdNombre = document.createElement('td');
-    tdNombre.textContent = nombre;
-    tr.appendChild(tdNombre);
+	const tdHabilidad = document.createElement('td');
+	tdHabilidad.textContent = habilidad;
+	tr.appendChild(tdHabilidad);
 
-    const tdHabilidad = document.createElement('td');
-    tdHabilidad.textContent = habilidad;
-    tr.appendChild(tdHabilidad);
+	const tdContacto = document.createElement('td');
+	const aContacto = document.createElement('a');
+	aContacto.href = contacto;
+	aContacto.textContent = 'Contacto';
+	aContacto.target = '_blank';
+	tdContacto.appendChild(aContacto);
+	tr.appendChild(tdContacto);
 
-    const tdContacto = document.createElement('td');
-    const aContacto = document.createElement('a');
-    aContacto.href = contacto;
-    aContacto.textContent = 'Contacto';
-    aContacto.target = '_blank';
-    tdContacto.appendChild(aContacto);
-    tr.appendChild(tdContacto);
+	// const tdEditar = document.createElement('td');
+	// const btnEditar = document.createElement('button');
+	// btnEditar.textContent = 'Editar';
+	// btnEditar.addEventListener('click', () => editarHabilidad(tr));
+	// tdEditar.appendChild(btnEditar);
+	// tr.appendChild(tdEditar);
 
-    // const tdEditar = document.createElement('td');
-    // const btnEditar = document.createElement('button');
-    // btnEditar.textContent = 'Editar';
-    // btnEditar.addEventListener('click', () => editarHabilidad(tr));
-    // tdEditar.appendChild(btnEditar);
-    // tr.appendChild(tdEditar);
-
-    tbody.appendChild(tr);
+	tbody.appendChild(tr);
 }
 
 function editarHabilidad(tr) {
@@ -79,7 +78,7 @@ async function ClickFilterButton() {
 	const nombre = document.getElementById('nombres').value;
 	const habilidad = document.getElementById('habilidad').value;
 
-	const persons = await FilterInput(nombre, habilidad);
+	const persons = await FilterInput(nombre.toLowerCase(), habilidad.toLowerCase());
 
 	if (persons.length > 0) clearTable();
 
@@ -94,10 +93,12 @@ async function getDataToJson() {
 
 async function FilterInput(nombre, habilidad) {
 	const data = await getDataToJson();
+	if (!Array.isArray(data)) throw new Error('Data is not an array');
 
 	return data.filter((p) => {
-		const hasNombre = nombre.length > 0 && p.nombre.toLowerCase().includes(nombre.toLowerCase());
-		const hasHabilidad = habilidad.length > 0 && p.habilidad.toLowerCase().includes(habilidad.toLowerCase());
+		const hasNombre = typeof nombre === 'string' && nombre.length > 0 && String(p.nombre).toLowerCase().includes(nombre);
+		const hasHabilidad =
+			typeof habilidad === 'string' && habilidad.length > 0 && String(p.habilidad).toLowerCase().includes(habilidad);
 
 		return hasNombre || hasHabilidad;
 	});
