@@ -60,8 +60,9 @@ h2 {
 .container__filters {
 	max-width: auto;
 	padding: 1rem;
-	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* background-color: #fff; */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	color: white;
 }
 
 .input__filters {
