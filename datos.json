@@ -1,6 +1,6 @@
 [
     { "nombre": "Stovedove", "habilidad": "Moderador, Editor de fotos, Ilustrador, Desarrollador web, Prompt engineer y software engineer en proceso", "contacto": "https://t.me/stovedove" },
-    { "nombre": "XTentacion", "habilidad": "Colaborador, Basic Excel", "contacto": "https://twitter.com/XTentacion" },
+    { "nombre": "XTentacion", "habilidad": "Moderador, Colaborador, Basic Excel, Líder Secundario", "contacto": "https://twitter.com/false_return_" },
     { "nombre": "gael", "habilidad": "productor musical", "contacto": "https://twitter.com/gaelyouknow" },
     { "nombre": "joipar21", "habilidad": "Editor de video", "contacto": "https://twitter.com/colo11779740" },
     { "nombre": "SaemTwentyTwo", "habilidad": "Arquitecto Diseñador", "contacto": "https://twitter.com/beltransf_" },
@@ -10,7 +10,7 @@
     { "nombre": "Papossa", "habilidad": "Moderador, programador en formación, gestión de redes", "contacto": "https://twitter.com/la_papa_h" },
     { "nombre": "Burgos", "habilidad": "Moderador/Vip, Futuro Ingeniero en Software, Proximo Editor de video", "contacto": "https://twitter.com/BurgosPay10" },
     { "nombre": "ElBitterX", "habilidad": "Entrevistador, Podcaster, experto en química, gestión de redes", "contacto": "https://www.instagram.com/elbitterx/" },
-    { "nombre": "kelly", "habilidad": "liderar equipos, Futuro frontend-web3 Proximo, Moderador/Vip, Futuro Ingeniero en Software, Proximo frontend", "contacto": "https://www.instagram.com/kellysjohana27/" },
+    { "nombre": "kelly ", "habilidad": "liderar equipos, comunicación efectiva, resolucion de problemas", "contacto": "https://github.com/kellyjohanasalb" },
     { "nombre": "CyberParce", "habilidad": "Moderador, Ingeniero de sonido, Prouductor musical, diseñador de sonido para videojuegos con Wwise, Unity, FMOD y Unreal Engine 5.1, Certificado en Pro Tools, Venue, Wwise 101, 110, y Meyer Sound ", "contacto": "https://www.linkedin.com/in/juanhsound/" },
     { "nombre": "ELCHINO", "habilidad": "Fotografo, detailer de carros", "contacto": "https://www.instagram.com/elchino_dx/" },
     { "nombre": "Sebastian Villa", "habilidad": "Desarrollador Movil Hibrido con Flutter", "contacto": "https://www.linkedin.com/in/sebasvillalo/" },
@@ -38,5 +38,10 @@
     { "nombre": "txcmatheo", "habilidad": "programador junior", "contacto": "https://twitter.com/txc_matheo" },
     { "nombre": "raveen", "habilidad": "futuro ingeniero en sistemas , chef, tecnólogo en sistemas", "contacto": "https://www.instagram.com/liangonzzz/" },
     { "nombre": "Squizzy", "habilidad": "desarrollador web, diseño y edición de videos e imágenes", "contacto": "https://www.linkedin.com/in/joseduquea/ " },
-    { "nombre": "slate", "habilidad": "tecnologo en administración de empresas y contabilidad financiera", "contacto":"https://twitter.com/Slatee10?t=yKRbS-J_syCzeK1NIL043A&s=09" }
+    { "nombre": "slate", "habilidad": "tecnologo en administración de empresas y contabilidad financiera", "contacto":"https://twitter.com/Slatee10?t=yKRbS-J_syCzeK1NIL043A&s=09" },
+    { "nombre": "Eduard Sepúlveda", "habilidad": "Diseñador Web WordPress, Desarrollador Front End, Excel Medio", "contacto": "https://instagram.com/e_sepulvedav?igshid=ZDdkNTZiNTM="},
+    { "nombre": "zJuaandii", "habilidad": "Moderador Twitch, creatividad, aprendizaje rápido, retención de información", "contacto": "https://twitter.com/zJuandii" },
+    { "nombre": "AlxDlarch", "habilidad": "Moderador, Auditor interno iso 27001 ,Tecnologo ADSI, Analista de fraude", "contacto":"https://www.linkedin.com/in/nelson-gamboa/"}
 ]
+
+
