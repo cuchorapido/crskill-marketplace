@@ -60,7 +60,8 @@ main {
     }
 }
 
-h2 {
+h2,
+h4 {
     color: #fff;
 }
 
