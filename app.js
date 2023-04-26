@@ -131,5 +131,5 @@ function clearTable() {
 }
 
 function AddDataToTable(arrayData) {
-	arrayData.map((p) => agregarHabilidadAlListado(p.nombre, p.habilidad, p.contacto));
+	arrayData.map((p) => agregarHabilidadAlListado(null,p.nombre, p.habilidad, p.contacto));
 }

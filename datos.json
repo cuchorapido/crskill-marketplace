@@ -23,7 +23,7 @@
     { "nombre": "David Gonzalez", "habilidad": "Moderador en twitch, Desarrollador web con experiencia en React, HTML, CSS y JavaScript.", "contacto": "https://github.com/dgonzalezt2" },
     { "nombre": "Crashxh", "habilidad": "Moderador, Progamador en progreso, excel basico, word avanzado, Experiencia en propiedad horizontal", "contacto": "https://twitter.com/Crashxh" },
     { "nombre": "Juan José Ruiz", "habilidad": "Chef pastelero, Ingeniero en sistemas en formación, ", "contacto": "https://twitter.com/JuannPatissier" },
-    { "nombre": "Santiago Aristizabal Correa", "habilidad": "Administrador de sistemas informáticos, Web developer frontend, React.js, Next.js,AEM ", "contacto": "https://www.linkedin.com/in/santiago-aristizabal-3ab8531b5/" },
+    { "nombre": "Santiago Aristizabal", "habilidad": "Administrador de sistemas informáticos, Web developer frontend, React.js, Next.js,AEM ", "contacto": "https://www.linkedin.com/in/santiago-aristizabal-3ab8531b5/" },
     { "nombre": "Ana Isabel García", "habilidad": "Soy Animadora digital, con habilidades en Animación 3D y 2D cutout, Rigger en Toon Boom, Modelado, y render en 3D", "contacto": "https://instagram.com/its.isaag?igshid=ZDdkNTZiNTM=" },
     { "nombre": "x4rLz", "habilidad": "Editor de video", "contacto": "https://twitter.com/x4rlz" },
     { "nombre": "VamzMotion", "habilidad": "Motion designer", "contacto": "https://twitter.com/VamzMotion" },
@@ -41,7 +41,12 @@
     { "nombre": "slate", "habilidad": "tecnologo en administración de empresas y contabilidad financiera", "contacto":"https://twitter.com/Slatee10?t=yKRbS-J_syCzeK1NIL043A&s=09" },
     { "nombre": "Eduard Sepúlveda", "habilidad": "Diseñador Web WordPress, Desarrollador Front End, Excel Medio", "contacto": "https://instagram.com/e_sepulvedav?igshid=ZDdkNTZiNTM="},
     { "nombre": "zJuaandii", "habilidad": "Moderador Twitch, creatividad, aprendizaje rápido, retención de información", "contacto": "https://twitter.com/zJuandii" },
-    { "nombre": "AlxDlarch", "habilidad": "Moderador, Auditor interno iso 27001 ,Tecnologo ADSI, Analista de fraude", "contacto":"https://www.linkedin.com/in/nelson-gamboa/"}
+    { "nombre": "AlxDlarch", "habilidad": "Moderador, Auditor interno iso 27001 ,Tecnologo ADSI, Analista de fraude", "contacto":"https://www.linkedin.com/in/nelson-gamboa/"},
+    { "nombre": "Zulodaes", "habilidad": "Diseñador Grafico (Miniaturas) Edicion de video (Youtube, Tiktok, Shorts)", "contacto": "https://twitter.com/David_ZL11" },
+    { "nombre": "Daniel Rocha", "habilidad": "Gamer, Atleta, Dibujador", "contacto": "https://www.instagram.com/vatto.say/" },
+    { "nombre": "swimz", "habilidad": "Est. Ingenieria de software, desarrollador web, community manager", "contacto": "https://www.instagram.com/miguelduque9_/" },
+    { "nombre": "Alejandro Castro", "habilidad": "Est. Ing. Sistemas. Programador, Frontend, Manejo de Dspace. Me gusta el arte y hago crossfit. busco practicas para la U ", "contacto": "https://twitter.com/acpm444makia" }
+
 ]
 
 
