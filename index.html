@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="imgs/cucho_logo.jpg">
-		<title>Habilidash</title>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-287X9E76SJ"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
 
-		gtag('config', 'G-287X9E76SJ');
-	</script>
-	<body>
-		<header>
-			<h1>Habilidash</h1>
-		</header>
-		<main>
-			<div class="container__filters">
-				<form id="input__filters" class="input__filters">
-					<div class="form__input">
-						<label for="nombres">Buscar por nombres:</label>
-						<input type="text" id="nombres" />
-					</div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="imgs/cucho_logo.jpg">
+    <title>Habilidash</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-287X9E76SJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-					<div class="form__input">
-						<label for="habilidad">Buscar por habilidad:</label>
-						<input type="text" id="habilidad" />
-					</div>
+    gtag('config', 'G-287X9E76SJ');
+</script>
 
-					<div class="form_buttons">
-						<button type="button" id="button__filters" onclick="ClickFilterButton()">Buscar</button>
-						<button type="button" id="button__filters" onclick="ResetTableWithData()">Limpiar filtros</button>
-					</div>
-				</form>
-			</div>
-			<!-- <h2>Postula tus habilidades</h2> -->
-			<!-- <form id="postulacion-form" class="formulario">
+<body>
+    <header>
+        <h1>Habilidash</h1>
+    </header>
+    <main>
+        <div class="container__filters">
+            <form id="input__filters" class="input__filters">
+                <div class="form__input">
+                    <label for="nombres">Buscar por nombres:</label>
+                    <input type="text" id="nombres" />
+                </div>
+
+                <div class="form__input">
+                    <label for="habilidad">Buscar por habilidad:</label>
+                    <input type="text" id="habilidad" />
+                </div>
+
+                <div class="form_buttons">
+                    <button type="button" id="button__filters" onclick="ClickFilterButton()">Buscar</button>
+                    <button type="button" id="button__filters" onclick="ResetTableWithData()">Limpiar filtros</button>
+                </div>
+            </form>
+        </div>
+        <!-- <h2>Postula tus habilidades</h2> -->
+        <!-- <form id="postulacion-form" class="formulario">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" required>
             <br>
@@ -54,23 +56,24 @@
             <br>
             <button type="submit">Enviar</button>
         </form> -->
-			<h2>Listado de habilidades</h2>
-			<table id="listado-habilidades">
-				<thead>
-					<tr>
-            <th></th>
-						<th>Nombre</th>
-						<th>Habilidad</th>
-						<th>Contacto</th>
-						
-					</tr>
-				</thead>
-				<tbody></tbody>
-			</table>
-		</main>
-		<script src="app.js"></script>
-	</body>
-	<footer>
-		<center><a href="https://twitch.tv/cuchorapido">Si quieres estar aqui, dejanos saber twitch.tv/cuchorapido</a></center>
-	</footer>
+        <h2>Listado de habilidades</h2>
+        <table id="listado-habilidades">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Habilidad</th>
+                    <th>Contacto</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="app.js"></script>
+</body>
+<footer>
+    <center><a href="https://twitch.tv/cuchorapido">Si quieres estar aqui, dejanos saber twitch.tv/cuchorapido</a>
+    </center>
+</footer>
+
 </html>
+

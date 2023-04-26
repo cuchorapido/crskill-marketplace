@@ -1,168 +1,184 @@
 body {
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0;
     font-family: Arial, sans-serif;
-	background-color: #333;
-	color: #f4f4f4;
+    background-color: #333;
+    color: #f4f4f4;
 }
- 
+
 img {
-	border-radius: 10px;
+    border-radius: 10px;
 }
 
 #logo {
-	position: absolute;
-	top: 200rem;
-	left: 50%;
+    position: absolute;
+    top: 200rem;
+    left: 50%;
 }
+
 header {
-	background-color: #555;
-	color: #fff;
-	text-align: center;
-	padding: 1.5rem 0;
-	font-size: 12px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 12px;
 }
+
 h1 {
-	font-size: 40px;
-	margin: 0;
-	text-align: center;
-	color: transparent;
-	-webkit-text-stroke: 1px rgb(255, 255, 255);
-	background-image: url(./imgs/back.png);
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-position: 0 0;
-	animation: back 40s linear infinite;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    background-image: url(./imgs/back.png);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;
 }
+
 main {
-	/* From https://css.glass */
-	background: rgba(255, 255, 255, 0.22);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
-	backdrop-filter: blur(5.6px);
-	-webkit-backdrop-filter: blur(5.6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	color: #333;
-	font-size: large;
-	max-width: 1200px;
-	margin: 2rem auto;
-	padding: 1rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #333;
+    font-size: large;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
 }
 
 
 @keyframes back {
-	100% {
-		background-position: 2000px 0;
-	}
+    100% {
+        background-position: 2000px 0;
+    }
 }
 
 h2 {
-	color: #fff;
+    color: #fff;
 }
 
 .container__filters {
-	max-width: auto;
-	padding: 1rem;
-	background-color: #555; 
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-	color: white;
+    max-width: auto;
+    padding: 1rem;
+    background-color: #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: white;
 }
+
 .input__filters {
-	display: flex;
-	gap: 0.5rem;
-	flex-wrap: wrap;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 button {
-	padding: 5px;
-	font-size: 14px;
-	border-radius: 10px;
-	cursor: pointer;
-}
-label {
-	padding: 5px;
-}
-#nombres, #habilidad {
-	height: px;
-	border-radius: 5px;
-	font-size: 14px;
-}
-.form__input {
-	display: flex;
-	flex-direction: column;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.form__input > label {
-	font-size: 1.1rem;
+label {
+    padding: 5px;
+}
+
+#nombres,
+#habilidad {
+    height: px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input>label {
+    font-size: 1.1rem;
 }
 
 .form_buttons {
-	display: flex;
-	gap: 0.5rem;
-	align-items: flex-end;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end;
 }
 
 .formulario label,
 .formulario input,
 .formulario button {
-	display: block;
-	margin-bottom: 1rem;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 thead {
-	border: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
+
 table {
-	border-collapse: collapse;
-	width: 100%;
-	margin-top: 20px;
-	border-radius: 16px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 16px;
 }
 
 th {
-	font-size: 18px;
-	text-align: center;
-	padding: 5px;
-	background-color: #161616;
-	font-weight: bold;
-	color: #fff;
-	border: 1px solid #ccc;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    background-color: #161616;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #ccc;
 }
+
 td {
-	border: 1px solid #ccc;
-	padding: 5px;
-	text-align: center;
-	color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
 }
+
 td:nth-child(1) {
-	text-align: center;
+    text-align: center;
 }
+
 td:nth-child(2) {
-	color: #2cd7ce;
-	font-weight: 700;
-	text-align: center;
-	padding: 24px;
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.455);
+    color: #2cd7ce;
+    font-weight: 700;
+    text-align: center;
+    padding: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.455);
 }
+
 td:nth-child(3) {
-	font-weight: 700;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.455);
-	text-align: center;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.455);
+    text-align: center;
 }
+
 td:nth-child(4) {
-	text-align: center;
+    text-align: center;
 }
+
 td:nth-child(5) {
-	text-align: center;
+    text-align: center;
 }
 
 footer {
     background-color: #555;
     padding: 30px;
 }
+
 a {
-	color: #2cd7ce;
+    color: #2cd7ce;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.455);
     width: 100%;
@@ -171,16 +187,16 @@ a {
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .editable {
-	cursor: pointer;
-	background-color: rgba(255, 255, 0, 0.2);
+    cursor: pointer;
+    background-color: rgba(255, 255, 0, 0.2);
 }
 
 input[type='text'].editando {
-	display: block;
-	width: 100%;
-	box-sizing: border-box;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
 }
