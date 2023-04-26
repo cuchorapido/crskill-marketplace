@@ -200,3 +200,36 @@ input[type='text'].editando {
     width: 100%;
     box-sizing: border-box;
 }
+
+/* Media queries para pantallas más pequeñas */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    .input__filters {
+        flex-direction: column;
+    }
+
+    .form_buttons {
+        justify-content: center;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        border-radius: 0;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+}
