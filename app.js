@@ -86,9 +86,9 @@ function editarHabilidad(tr) {
 }
 
 async function ClickFilterButton() {
-    const nombre = document.getElementById('nombres').value;
+    const nombre = document.getElementById('habilidad').value
     const habilidad = document.getElementById('habilidad').value;
-
+    
     const persons = await FilterInput(nombre.toLowerCase(), habilidad.toLowerCase());
 
     if (persons.length > 0) clearTable();
