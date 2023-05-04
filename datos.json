@@ -48,7 +48,8 @@
     { "nombre": "Alejandro Castro", "habilidad": "Est. Ing. Sistemas. Programador, Frontend, Manejo de Dspace. Me gusta el arte y hago crossfit. busco practicas para la U ", "contacto": "https://twitter.com/acpm444makia" },
     { "nombre": "Dimas Vergara", "habilidad": "Diseñador artista 3d, diseñador arquitectónico, experiencia arquitectura comercial y retail, Visualización, renderización y presentación de proyectos a clientes y otros stakeholders ", "contacto": "https://www.linkedin.com/in/dimasvergara-arq/" },
     { "nombre": "Soy_Ferzon", "habilidad": "Python, c#, java, php, Azure, desarrollo back-end and front-end, data science, machine learning, process automations", "contacto": "https://www.linkedin.com/in/yeferson-loaiza-9a8316191/" },
-    { "nombre": "Tomas Puerta (Efeks)", "habilidad": "graphic & motion designer.", "contacto": "https://twitter.com/tomaspuertaa" }
+    { "nombre": "Tomas Puerta (Efeks)", "habilidad": "graphic & motion designer.", "contacto": "https://twitter.com/tomaspuertaa" },
+    { "nombre": "Nicolas Silva", "habilidad": "Backend Developer | TypeScript | Nestjs | GraphQL | Firestore | Cloud Functions | Golang", "contacto": "https://www.linkedin.com/in/sergio-nicolás-silva-mendieta-4273931a9/" }
 ]
 
 
