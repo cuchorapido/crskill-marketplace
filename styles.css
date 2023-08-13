@@ -329,10 +329,10 @@ img {
 }
 
 .content > p {
-  font-size: clamp(1.1rem, 1.75vw, 1.35rem);
+  font-size: clamp(0.9rem, 1.25vw, 0.8rem);
   font-weight: 400;
   margin-bottom: 16px;
-  /* color: var(--text-300); */
+  color: var(--accent-200);
   line-height: 22px;
 }
 

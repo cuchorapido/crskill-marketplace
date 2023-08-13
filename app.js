@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", onEventLoadCollaboratorHtml);
 const $cards = document.getElementById("cards_collaborators");
+const search = document.getElementById("searh_input").value;
 
 function cargarDatos() {
   fetch("datos_prototype.json")
@@ -227,9 +228,7 @@ function cardCollaborators({ nombre, habilidad, contacto }) {
   `;
 }
 
-async function filterUsers() {
-  const search = document.getElementById("searh_input").value;
-
+async function filterUsers() { 
   const users = await getUsers();
   let html = "";
   const $cards = document.getElementById("cards_collaborators");
