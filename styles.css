@@ -150,6 +150,7 @@ img {
   flex-direction: column;
   margin: 0 auto;
   place-content: center;
+  
 }
 
 .nav-wrapper {
@@ -207,7 +208,7 @@ img {
 .headline {
   width: 100%;
   /* height: 50vh; */
-  min-height: 350px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
