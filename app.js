@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", onEventLoadCollaboratorHtml);
+const $cards = document.getElementById("cards_collaborators");
 
 function cargarDatos() {
   fetch("datos_prototype.json")
@@ -194,15 +195,17 @@ iconKeys = Object.keys(objetIcons);
 async function onEventLoadCollaboratorHtml() {
   const users = await getUsers();
   let html = "";
-  const $cards = document.getElementById("cards_collaborators");
+
   users.forEach((element) => (html += cardCollaborators(element)));
+
+  if (html.length === 0) html = viewContentEmpty();
+    
   $cards.innerHTML = html;
 }
 
 function cardCollaborators({ nombre, habilidad, contacto }) {
   let icon = iconKeys.find((key) => contacto.includes(key.toLowerCase()));
-  if(!icon) icon = "link";
-  console.log(icon);
+  if (!icon) icon = "link";
   const iconSvg = objetIcons[icon]();
 
   return `
@@ -223,3 +226,35 @@ function cardCollaborators({ nombre, habilidad, contacto }) {
     </div> 
   `;
 }
+
+async function filterUsers() {
+  const search = document.getElementById("searh_input").value;
+
+  const users = await getUsers();
+  let html = "";
+  const $cards = document.getElementById("cards_collaborators");
+  users.forEach((element) =>
+    element.nombre.toLowerCase().includes(search) ||
+    element.habilidad.toLowerCase().includes(search)
+      ? (html += cardCollaborators(element))
+      : null
+  );
+
+  if (html.length === 0) html = viewContentEmpty();
+    
+
+  $cards.innerHTML = html;
+}
+
+function viewContentEmpty() {
+  return `
+    <div class="view-empty">
+      <p>Ups!, No se encontro colaboradores</p>
+    </div> 
+  `;
+}
+
+document.getElementById("searh_input").addEventListener("search", (event) => {
+  event.value = "";
+  onEventLoadCollaboratorHtml();
+});

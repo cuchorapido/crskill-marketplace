@@ -44,10 +44,9 @@
       </p>
       <section class="section_search">
         <div class="input-group">
-          <input type="search" class="input" placeholder="Que estas buscando?" [formControl]="searchUser"
-            (search)="onEventSearchFilter()" />
+          <input type="search" class="input" id="searh_input" placeholder="Que estas buscando?"/>
 
-          <button type="button" class="button--submit" (click)="onEventSearchFilter()">Buscar</button>
+          <button type="button" class="button--submit" onclick="filterUsers()">Buscar</button>
         </div>
       </section>
     </section> 
@@ -55,7 +54,7 @@
     <section class="collaborators">
       <h2>Colaboradores</h2>
       <div class="container__main-content" id="cards_collaborators">
-         
+          
       </div>
     </section>
   </section>
