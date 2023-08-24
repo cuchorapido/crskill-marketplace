@@ -2,80 +2,52 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="imgs/cucho_logo.jpg">
-    <title>Habilidash</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-287X9E76SJ"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-287X9E76SJ');
-</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="imgs/cucho_logo.jpg" />
+  <title>Habilidash</title>
+  <link rel="stylesheet" href="styles.css" />
+</head> 
 
 <body>
-    <header>
-        <h1>habilidash</h1>
-        <center><h4>descubre y colabora.</h4></center>
-    </header>
-    <main>
-        
-        <div class="container__filters">
-            <form id="input__filters" class="input__filters">
-                <!-- <div class="form__input">
-                    <center><label for="nombres">Buscar por nombres:</label></center>
-                    <input type="text" id="nombres" />
-                </div> -->
-
-                <div class="form__input">
-                    <center><label for="habilidad">que buscas?</label></center>
-                    <input type="text" id="habilidad" placeholder="ej. moderador" />
-                </div>
-
-                <div class="form_buttons">
-                    <button type="button" id="button__filters" onclick="ClickFilterButton()">encuentramelo ya</button>
-                    <button type="button" id="button__filters" onclick="ResetTableWithData()">limpiar filtros</button>
-                </div>
-            </form>
+  <section class="page-wrapper">
+    <div class="nav-wrapper">
+      <nav class="navbar">
+        <a href="#" class="title">Habilidash</a>
+        <!-- <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <!-- <h2>Postula tus habilidades</h2> -->
-        <!-- <form id="postulacion-form" class="formulario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" required>
-            <br>
-            <label for="habilidad">Habilidad:</label>
-            <input type="text" id="habilidad" placeholder="Ingresa una habilidad" required>
-            <br>
-            <label for="contacto">Contacto:</label>
-            <input type="text" id="contacto" placeholder="https://twitter.com/username" required>
-            <br>
-            <button type="submit">Enviar</button>
-        </form> -->
+        <ul class="nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Careers</a></li>
+        </ul> -->
+      </nav>
+    </div>
+    <section class="headline">
+      <h1>Inspira, Conecta y Crece</h1>
+      <p>
+        Descubre talentos excepcionales y potencia tus proyectos. Tu lugar para conectar con los mejores colaboradores
+      </p>
+      <section class="section_search">
+        <div class="input-group">
+          <input type="search" class="input" id="searh_input" placeholder="¿Qué estás buscando?"/>
 
-        <table id="listado-habilidades">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Habilidad</th>
-                    <th>Contacto</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </main>
-    <script src="app.js"></script>
+          <button type="button" class="button--submit" onclick="filterUsers()">Buscar</button>
+        </div>
+      </section>
+    </section> 
+
+    <section class="collaborators">
+      <h2>Colaboradores</h2>
+      <div class="container__main-content" id="cards_collaborators">
+          
+      </div>
+    </section>
+  </section>
+
 </body>
-<footer>
-    <center><a href="https://twitch.tv/cuchorapido">Si quieres estar aqui, dejanos saber twitch.tv/cuchorapido</a>
-    </center>
-</footer>
 
+<script src="app.js"></script> 
 </html>
-
