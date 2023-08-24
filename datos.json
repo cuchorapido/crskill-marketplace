@@ -1,6 +1,6 @@
 [
     { "nombre": "Stovedove", "habilidad": "Moderador, Editor de fotos, Ilustrador, Desarrollador web, Prompt engineer y software engineer en proceso", "contacto": "https://t.me/stovedove" },
-    { "nombre": "XTentacion", "habilidad": "Moderador, Colaborador, Basic Excel, Líder Secundario", "contacto": "https://twitter.com/false_return_" },
+    { "nombre": "XTentacion", "habilidad": "Moderador, Colaborador, Basic Excel, Líder Secundario, Tc Asistencia Administrativa ", "contacto": "https://twitter.com/false_return_" },
     { "nombre": "gael", "habilidad": "productor musical", "contacto": "https://twitter.com/gaelyouknow" },
     { "nombre": "joipar21", "habilidad": "Editor de video", "contacto": "https://twitter.com/colo11779740" },
     { "nombre": "SaemTwentyTwo", "habilidad": "Arquitecto Diseñador", "contacto": "https://twitter.com/beltransf_" },
@@ -9,7 +9,7 @@
     { "nombre": "dZePequeno", "habilidad": "Colaborador, Editor de Video, Editor de Fotografía, Diseñador Industrial, Piloto de Drone, Productor Audiovisual ", "contacto": "https://t.me/dzepequeno" },
     { "nombre": "Papossa", "habilidad": "Moderador, programador en formación, gestión de redes con cisco", "contacto": "https://twitter.com/la_papa_h" },
     { "nombre": "Burgos", "habilidad": "Moderador/Vip, Futuro Ingeniero en Software, Proximo Editor de video", "contacto": "https://twitter.com/BurgosPay10" },
-    { "nombre": "ElBitterX", "habilidad": "Entrevistador, Podcaster, experto en química, gestión de redes", "contacto": "https://www.instagram.com/elbitterx/" },
+    { "nombre": "ElBitterX", "habilidad": "creador de contenido, gestión de redes, editor de videos, publicidad ", "contacto": "https://www.instagram.com/nicolasvivas26/" },
     { "nombre": "kelly ", "habilidad": "frontend, react, web3", "contacto": "https://github.com/kellyjohanasalb" },
     { "nombre": "CyberParce", "habilidad": "Moderador, Ingeniero de sonido, Prouductor musical, diseñador de sonido para videojuegos con Wwise, Unity, FMOD y Unreal Engine 5.1, Certificado en Pro Tools, Venue, Wwise 101, 110, y Meyer Sound ", "contacto": "https://www.linkedin.com/in/juanhsound/" },
     { "nombre": "ELCHINO", "habilidad": "Fotografo, detailer de carros", "contacto": "https://www.instagram.com/elchino_dx/" },
@@ -29,7 +29,7 @@
     { "nombre": "VamzMotion", "habilidad": "Motion designer", "contacto": "https://twitter.com/VamzMotion" },
     { "nombre": "Juyan", "habilidad": "Ing de sistemas, Programador Web, Musico (Guitarra, bateria y otros de percusión, Streamer, Moderador (2 años xp))", "contacto": "https://www.instagram.com/juyaan_/" },
     { "nombre": "Derek Farming", "habilidad": "Cultivador de cannabis, motivador, coach online, nutricion deportiva, edicion de videos,cannabis medicinal, accesorios para el autocultivo en colombia", "contacto": "https://www.instagram.com/camifit_22/?hl=es-la" },
-    { "nombre": "wispy", "habilidad": " Progamador en progreso", "contacto": "https://www.instagram.com/wispyrbi/" },
+    { "nombre": "wispy", "habilidad": "Blockchain Developer", "contacto": "t.me/wispy420" },
     { "nombre": "Bohol_09", "habilidad": "programming junior", "contacto": "https://twitter.com/Bohol_09" },
     { "nombre": "2dobleB", "habilidad": "Editor de video, Experto marketing, mercadeo ,ventas,", "contacto": "https://www.instagram.com/doble2b/"},
     { "nombre": "mr.notsenior", "habilidad": "programador de páginas y aplicaciones web", "contacto":"https://mrnotsenior.vercel.app" },
@@ -39,7 +39,7 @@
     { "nombre": "raveen", "habilidad": "futuro ingeniero en sistemas , chef, tecnólogo en sistemas", "contacto": "https://www.instagram.com/liangonzzz/" },
     { "nombre": "Squizzy", "habilidad": "desarrollador web, diseño y edición de videos e imágenes", "contacto": "https://www.linkedin.com/in/joseduquea/ " },
     { "nombre": "slate", "habilidad": "tecnologo en administración de empresas y contabilidad financiera", "contacto":"https://twitter.com/Slatee10?t=yKRbS-J_syCzeK1NIL043A&s=09" },
-    { "nombre": "Eduard Sepúlveda", "habilidad": "Diseñador Web WordPress, Desarrollador Front End, Excel Medio", "contacto": "https://instagram.com/e_sepulvedav?igshid=ZDdkNTZiNTM="},
+    { "nombre": "Eduard Sepulveda", "habilidad": "Desarrollador Web WordPress, Desarrollador Front End, DatBases Excel-Access", "contacto": "https://eduard-sepulveda-portfolio.pages.dev/" },
     { "nombre": "zJuaandii", "habilidad": "Moderador Twitch, creatividad, aprendizaje rápido, retención de información", "contacto": "https://twitter.com/zJuandii" },
     { "nombre": "AlxDlarch", "habilidad": "Moderador, Auditor interno iso 27001 ,Tecnologo ADSI, Analista de fraude", "contacto":"https://www.linkedin.com/in/nelson-gamboa/"},
     { "nombre": "Zulodaes", "habilidad": "Diseñador Grafico (Miniaturas) Edicion de video (Youtube, Tiktok, Shorts)", "contacto": "https://twitter.com/David_ZL11" },
@@ -49,7 +49,15 @@
     { "nombre": "Dimas Vergara", "habilidad": "Diseñador artista 3d, diseñador arquitectónico, experiencia arquitectura comercial y retail, Visualización, renderización y presentación de proyectos a clientes y otros stakeholders ", "contacto": "https://www.linkedin.com/in/dimasvergara-arq/" },
     { "nombre": "Soy_Ferzon", "habilidad": "Python, c#, java, php, Azure, desarrollo back-end and front-end, data science, machine learning, process automations", "contacto": "https://www.linkedin.com/in/yeferson-loaiza-9a8316191/" },
     { "nombre": "Tomas Puerta (Efeks)", "habilidad": "graphic & motion designer.", "contacto": "https://twitter.com/tomaspuertaa" },
-    { "nombre": "Nicolas Silva", "habilidad": "Backend Developer | TypeScript | Nestjs | GraphQL | Firestore | Cloud Functions | Golang", "contacto": "https://www.linkedin.com/in/sergio-nicolás-silva-mendieta-4273931a9/" }
+    { "nombre": "Nicolas Silva", "habilidad": "Backend Developer | TypeScript | Nestjs | GraphQL | Firestore | Cloud Functions | Golang", "contacto": "https://www.linkedin.com/in/sergio-nicolás-silva-mendieta-4273931a9/" },
+    { "nombre": "David \"Escoby\" Escobar", "habilidad": "JavaScript developer, community manager, web3", "contacto": "https://twitter.com/LFireed" },
+    { "nombre": "painbrayan", "habilidad": "Produccion audiovisual, Creacion de Anuncios y Animacion", "contacto": "https://t.me/painbrayan" },
+    { "nombre": "iDk", "habilidad": "Moderador demasiado increible, ", "contacto": "https://twitter.com/0xiDk_" } ,
+    { "nombre": "Emmanuel", "habilidad": "Developer", "contacto": "EMMANUELAREIZAPEREZ2@GMAIL.COM" },
+    { "nombre": "Steven Serna", "habilidad": "Desarrollador Javascript, React, Nodejs, Wordpress", "contacto": "https://www.linkedin.com/in/steven-serna-zuluaga-870598236/" },
+    { "nombre": "Oscar", "habilidad": " HSEQ, Analista financiero, Analista de Datos junior", "contacto": "https://t.me/oscartr02" },
+    { "nombre": "serrato", "habilidad": "editor de video, ilustrador, diseñador gráfico, estratega de marketing digital", "contacto": "https://www.instagram.com/xserratox/" },
+    { "nombre": "Daniel Marin", "habilidad": "Futuro Desarrollador de Software ", "contacto": "https://www.instagram.com/daniel.mmarin/" },
+    { "nombre": "El_chimex", "habilidad": "Blockchain dev in progress", "contacto": "https://t.me/ElChimex" },    
+    { "nombre": "Chocolow2", "habilidad": "Editor de fotos y videos , Ingeniería en sistemas y reparación de computadores ", "contacto": "https://www.instagram.com/lop.ez222/" }
 ]
-
-
